@@ -8,8 +8,9 @@ function App() {
   // let counter = 0;
   let addValue = () =>{
     if(counter<20){
-      counter = counter+1;
-      setCounter(counter);
+      // setCounter(counter+1);
+      setCounter(counter+2);
+      setCounter(counter+1);
       console.log("Counter is: ", counter);
     }
   }
