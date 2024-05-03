@@ -11,8 +11,8 @@ function App() {
   let exchangeData = useCurrencyInfo(from);
   const options = Object.keys(exchangeData);
 
-  console.log("app: ", inputAmount);
-  console.log("input currency is ", from);
+  // console.log("app: ", inputAmount);
+  // console.log("input currency is ", from);
 
   function convertCurrency(){
     setOutputAmount(inputAmount*exchangeData[to]);
